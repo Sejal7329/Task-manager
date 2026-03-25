@@ -30,4 +30,4 @@ With more time, I’d refactor the drag logic into a reusable custom hook. Right
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/task-manager.git
+git clone https://sejal7329.github.io/Task-manager/
