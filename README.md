@@ -1,6 +1,10 @@
 # 📝 Task Manager App
 
-A simple and efficient Task Manager application to help users organize, track, and manage daily tasks. Built with a clean UI and responsive design, this app focuses on productivity and ease of use.
+One of the hardest UI problems I solved was implementing smooth drag-and-drop reordering without causing layout shifts. Initially, dragging an item made other elements jump due to DOM reflow, which felt unstable and unpolished.
+
+To fix this, I used a placeholder element that matched the dragged item’s size, keeping the layout intact. Instead of removing the item from the flow completely, I positioned the dragged element absolutely and used transform (translateY) for movement. This avoided layout recalculations and made the interaction feel smooth and responsive.
+
+With more time, I’d refactor the drag logic into a reusable custom hook. Right now, the state and event handling are tightly coupled to the component, so separating them would improve scalability and maintainability.
 
 ---
 
