@@ -6,13 +6,11 @@ A simple and efficient Task Manager application to help users organize, track, a
 
 ## 🚀 Features
 
-- ✅ Add new tasks  
 - 🗂️ Edit tasks  
 - ❌ Delete tasks  
 - ✔️ Mark tasks as completed  
 - 📋 View all tasks  
 - 🔍 Filter tasks (Completed / Pending)  
-- 💾 Saves data (Local Storage)  
 
 ---
 
@@ -20,7 +18,7 @@ A simple and efficient Task Manager application to help users organize, track, a
 
 - HTML  
 - CSS  
-- JavaScript / React.js  
+- TypeScript / React.js  
 
 ---
 
