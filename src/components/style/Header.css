@@ -1,0 +1,48 @@
+.container {
+  width: 95%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 10px;
+  background: #f3f3f3;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+
+.toggle-btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: capitalize;
+  background: transparent;
+  color: #555;
+  transition: 0.2s;
+}
+
+.toggle-btn:hover {
+  background: #e5e5e5;
+  
+}
+
+.toggle-btn.active {
+  background: black;
+  color: white;
+}

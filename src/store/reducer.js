@@ -1,15 +1,17 @@
-import { Task, Status } from "../types/task";
-
-export type State = {
-  tasks: Task[];
-};
-
-export type Action =
-  | { type: "MOVE"; id: string; status: Status }
-  | { type: "UPDATE"; id: string; patch: Partial<Task> };
-
-export function reducer(state: State, action: Action): State {
+export function reducer(state, action) {
   switch (action.type) {
+    case "ADD":
+      return {
+        ...state,
+        tasks: [action.task, ...state.tasks],
+      };
+
+    case "DELETE":
+      return {
+        ...state,
+        tasks: state.tasks.filter((t) => t.id !== action.id),
+      };
+
     case "MOVE":
       return {
         ...state,
