@@ -9,7 +9,7 @@ With more time, I’d refactor the drag logic into a reusable custom hook. Right
 ---
 
 ## 🚀 Features
-
+- ➕ Add tasks
 - 🗂️ Edit tasks  
 - ❌ Delete tasks  
 - ✔️ Mark tasks as completed  
@@ -22,7 +22,7 @@ With more time, I’d refactor the drag logic into a reusable custom hook. Right
 
 - HTML  
 - CSS  
-- TypeScript / React.js  
+- JavaScript / React.js  
 
 ---
 
@@ -30,4 +30,4 @@ With more time, I’d refactor the drag logic into a reusable custom hook. Right
 
 1. Clone the repository:
 ```bash
-git clone https://sejal7329.github.io/Task-manager/
+git https://task-manager-gw95reknd-sejal7329.vercel.app

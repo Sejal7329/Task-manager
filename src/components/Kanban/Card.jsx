@@ -1,4 +1,5 @@
 import "../style/Card.css";
+
 function formatDate(date) {
   const now = new Date();
   const d = new Date(date);
